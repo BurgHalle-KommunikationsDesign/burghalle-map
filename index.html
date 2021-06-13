@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leaflet Map</title>
+
+  <!-- Leaflet files -->
+  <!-- Check if version is still up-to-date: https://leafletjs.com/download.html -->
+  <link rel="stylesheet" href="./assets/leaflet/leaflet.css" />
+  <script src="./assets/leaflet/leaflet.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/styles/variables.css" />
+  <link rel="stylesheet" href="./assets/styles/normalize.css" />
+  <link rel="stylesheet" href="./assets/styles/map.css" />
+  <link rel="stylesheet" href="./assets/styles/info.css" />
+  <link rel="stylesheet" href="./assets/styles/leaflet-custom.css" />
+
+  <!-- JS -->
+  <script src="./assets/scripts/map.js"></script>
+
+  <!-- Customizing -->
+  <script>
+    window.MAPsettings = {
+      center: [0, 14],
+      zoom: 2,
+      minZoom: 0,
+      maxZoom: 6,
+      scrollWheelZoom: false
+    }
+
+    window.MAPmarker = [
+      {
+        lat: 84.16,
+        lng: -138.43,
+        text: 'Lorem ipsum ...'
+      },
+      {
+        lat: 80.22,
+        lng: -136.73,
+        text: '... dolor sit.'
+      }
+    ]
+  </script>
+</head>
+<body>
+
+  <main id="map"></main>
+
+  <aside class='info --hidden'>
+
+    <h2>Info</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+
+  </aside>
+
+
+</body>
+</html>

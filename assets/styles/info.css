@@ -1,0 +1,24 @@
+.info {
+  position: fixed;
+  top: 0;
+  left: calc(100% - 380px);
+  width: calc(380px - var(--space) * 2);
+  height: 100%;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  padding: var(--space);
+
+  transition: left var(--transition) ease-in-out;
+}
+
+.info p {
+  transition: transform var(--transition) ease-in-out;
+}
+
+.info.--hidden {
+  left: calc(100% - var(--space) * 4);
+}
+
+.info.--hidden p {
+  transform: translateX(calc(var(--space) * 4));
+}

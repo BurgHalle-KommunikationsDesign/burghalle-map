@@ -1,0 +1,8 @@
+:root {
+  --font-size: 17px;
+  --space: 20px;
+  --transition: 300ms;
+  --black: black;
+  --primary-color: rgba(0, 0, 255, 1);
+  --box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.6);
+}

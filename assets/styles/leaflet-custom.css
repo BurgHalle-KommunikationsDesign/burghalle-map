@@ -1,0 +1,64 @@
+.leaflet-container {
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--black);
+}
+
+.leaflet-container .leaflet-bar {
+  border: 0;
+  box-shadow: var(--box-shadow);
+}
+
+.leaflet-container .leaflet-bar a {
+  background-color: var(--primary-color);
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+.leaflet-container .leaflet-bar a:first-child {
+  margin-bottom: 1px;
+}
+
+.leaflet-container .leaflet-left {
+  left: var(--space);
+}
+
+.leaflet-container .div-icon {
+  background-color: var(--primary-color);
+  width: calc(var(--space) * 2) !important;
+  height: calc(var(--space) * 2) !important;
+  box-shadow: var(--box-shadow);
+  border-radius: 50%;
+}
+
+.leaflet-container .leaflet-popup-tip-container {
+  display: none;
+}
+
+
+.leaflet-container .leaflet-popup-content {
+  margin: var(--space);
+}
+
+.leaflet-container .leaflet-popup-content p{
+  font-size:inherit;
+  line-height: inherit;
+  margin: 0;
+  color: var(--black);
+}
+
+.leaflet-container .leaflet-popup-content-wrapper {
+  box-shadow: var(--box-shadow);
+  background-color: var(--primary-color);
+  color: var(--black);
+  border-radius: 0;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--black);
+  padding: 4px 1px;
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: var(--black);
+}
