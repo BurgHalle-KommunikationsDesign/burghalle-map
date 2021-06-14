@@ -32,10 +32,8 @@ It's a python script which splits the image into different folders and files:
 
 ## Using Gdal2Tiles
 
-Make sure to use Python 3 and install python-gdal.
 For details check the gdal2tiles repository: https://github.com/commenthol/gdal2tiles-leaflet
 
 ```
-cd _gdal2tiles-leaflet-master
 python gdal2tiles.py -p raster --z 0-6  image.jpg ../tiles
 ```
